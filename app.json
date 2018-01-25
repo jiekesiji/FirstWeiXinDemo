@@ -1,0 +1,38 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#2695F2",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "pages": [
+    "page/message/message",
+    "page/my/my",
+    "page/work/work"
+  ],
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#000000",
+    "selectedColor": "#2695F2",
+    "list": [
+      {
+        "pagePath": "page/message/message",
+        "text": "消息",
+        "iconPath": "res/img/bottom_message.png",
+        "selectedIconPath": "res/img/bottom_message_on.png"
+      },
+      {
+        "pagePath": "page/work/work",
+        "text": "工作平台",
+        "iconPath": "res/img/bottom_work.png",
+        "selectedIconPath": "res/img/bottom_work_on.png"
+      },
+      {
+        "pagePath": "page/my/my",
+        "text": "我的",
+        "iconPath": "res/img/bottom_my.png",
+        "selectedIconPath": "res/img/bottom_my_on.png"
+      }
+    ]
+  }
+}
