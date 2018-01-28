@@ -1,0 +1,104 @@
+.my_container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+
+
+.my_info_container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border-bottom: 1px dashed darkgray;
+}
+
+.my_info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.my_edit_container{
+  width: 80px;
+  height: 80px;
+  flex-direction:row;
+  align-items:flex-end;
+}
+
+
+.my_edit{
+  width: 20px;
+  height: 20px;
+
+}
+
+.my_icon{
+  border-radius: 50%;
+  width: 110px;
+  height: 70px;
+}
+
+.info_text{
+  color: #000000; 
+}
+
+.my_nickName{
+    font-size: 15px;
+}
+
+.my_org{ 
+    font-size: 12px;
+    margin-top: 10px;
+}
+.my_tel_num{ 
+    color: #077629;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.my_function_container{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_function{
+   display: flex;
+  flex-direction: row; 
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-bottom: 1px solid darkgray;
+  align-items: center;
+}
+
+.my_function_text_container{
+   display: flex;
+   width: 100%;
+   margin-left: 20px;
+  align-items: center;
+}
+
+.my_function_icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.my_function_text{
+  font-size: 14px;
+}
+
+
+.my_exit{
+  margin-top: 110px;
+  margin-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  background-color: #2695F2;
+}

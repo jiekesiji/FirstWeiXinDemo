@@ -1,0 +1,63 @@
+<view class='my_container'>
+
+
+<view class='my_info_container'>
+    <image src='../../res/img/kebi.jpg' class='.my_icon' />
+
+    <!-- 信息头 -->
+    <view class='my_info'>
+        <text class='my_nickName info_text'>科比.布莱恩特</text>
+
+        <text class='my_org info_text'>NBA 大神</text>
+
+        <text class='info_text my_tel_num'>tel:1850916XXXX</text>
+    </view>
+
+    <view class='my_edit_container'>
+        <image src='../../res/img/ic_edit.png' class='my_edit'/>
+    </view>
+   
+</view>
+
+
+<!-- 条目 -->
+
+
+<view class='my_function_container'>
+
+    <view class='my_function'>
+
+        <view class='my_function_text_container'>
+          <image class='my_function_icon' src='../../res/img/ic_work_time_out.png'/>
+          <text class='my_function_text'>加班申请</text>
+        </view>
+          <image class='my_function_icon' src='../../res/img/ic_forward.png'/>
+    </view>
+
+
+    <view class='my_function'>
+
+        <view class='my_function_text_container'>
+          <image class='my_function_icon' src='../../res/img/ic_for_work.png'/>
+          <text class='my_function_text'>考勤统计</text>
+        </view>
+          <image class='my_function_icon' src='../../res/img/ic_forward.png'/>
+    </view>
+
+
+    <view class='my_function'>
+
+        <view class='my_function_text_container'>
+          <image class='my_function_icon' src='../../res/img/ic_Achievements.png'/>
+          <text class='my_function_text'>绩效考核</text>
+        </view>
+          <image class='my_function_icon' src='../../res/img/ic_forward.png'/>
+    </view>
+</view>
+
+
+
+<button  bindtap='showExitLogin' class='my_exit'>退出登录</button>
+
+
+</view>

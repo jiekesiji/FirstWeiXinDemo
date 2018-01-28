@@ -4,6 +4,38 @@ Page({
    * 页面的初始数据
    */
   data: {
+    imgUrls:[
+      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    ],
+    functions:[
+      {
+        title:'加班',
+        resId:'../../res/img/ic_lock.png'
+      }, {
+        title: '请假',
+        resId: '../../res/img/ic_personner.png'
+      }, {
+        title: '应急',
+        resId: '../../res/img/ic_traffic.png'
+      }, {
+        title: '抗洪',
+        resId: '../../res/img/ic_apply.png'
+      }, {
+        title: '视频',
+        resId: '../../res/img/ic_computer.png'
+      }, {
+        title: '',
+        resId: ''
+      }, {
+        title: '',
+        resId: ''
+      }, {
+        title: '',
+        resId: ''
+      }
+    ]
     
   },
 

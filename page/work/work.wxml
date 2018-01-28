@@ -1,0 +1,55 @@
+<view class='work_container'>
+
+  <text class='work_title'>今日值班</text>
+
+  <swiper class='work_swiper' indicator-dots='true' indicator-color='#2695F2' autoplay='true' interval="5000" duration="600" circular="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class='work_swiper_item'  />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+<view class='work_select_container'>
+
+      <view class='function_select'>
+              <image class='function_icon' src="../../res/img/ic_personner.png"/>
+              <text class='function_name'>值班</text>
+      </view>
+
+
+      <view class='function_select'>
+              <image class='function_icon' src="../../res/img/ic_personner.png"/>
+              <text class='function_name'>交班</text>
+      </view>
+
+
+      <view class='function_select'>
+              <image class='function_icon' src="../../res/img/ic_personner.png"/>
+              <text class='function_name'>外出</text>
+      </view>
+
+</view>
+
+
+
+  <text class='work_title'>常用功能</text>
+
+
+    <view class='work_function_container'>
+  
+        <block wx:for="{{functions}}"> 
+          <view class='function_conatiner'>
+              <image class='function_icon' src="{{item.resId}}"/>
+              <text class='function_name'>{{item.title}}</text>
+          </view>
+         </block>
+
+  
+  </view>  
+
+  
+
+
+</view>
