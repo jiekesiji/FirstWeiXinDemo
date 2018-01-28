@@ -2,7 +2,7 @@
 
   <text class='work_title'>今日值班</text>
 
-  <swiper class='work_swiper' indicator-dots='true' indicator-color='#2695F2' autoplay='true' interval="5000" duration="600" circular="true">
+  <swiper class='work_swiper' indicator-dots='true' indicator-color='white' indicator-active-color='#2695F2' autoplay='true' interval="5000" duration="600" circular="true">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
         <image src="{{item}}" class='work_swiper_item'  />
